@@ -1,0 +1,9 @@
+# AuraTech Enterprise ML Core
+# The microservice is built natively with Python 3.10+ standard library (http.server, json, math).
+# No external pip dependencies are strictly required to run.
+#
+# Optional high-performance packages for large dataset training:
+# numpy>=1.24.0
+# scikit-learn>=1.3.0
+# fastapi>=0.100.0
+# uvicorn>=0.22.0

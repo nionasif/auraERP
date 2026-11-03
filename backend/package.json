@@ -1,0 +1,31 @@
+{
+  "name": "auratech-erp-backend",
+  "version": "1.0.0",
+  "description": "Enterprise IT & Software Solutions ERP Backend REST API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch --watch-path=src src/server.js",
+    "dev": "node --watch --watch-path=src src/server.js",
+    "seed": "node src/scripts/seed.js"
+  },
+  "keywords": [
+    "erp",
+    "enterprise-it",
+    "express",
+    "rest-api",
+    "datacenter",
+    "cloud"
+  ],
+  "author": "AuraTech Solutions Ltd.",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0"
+  }
+}
